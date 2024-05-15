@@ -65,9 +65,9 @@ if(!class_exists('SVB_Table')) {
          * @return void
          */
         public function drop($name)
-        {
+        { 
             global $wpdb;
-            $wpdb->query("DROP TABLE IF EXISTS " . $wpdb->prefix . $name);
+            $wpdb->query($wpdb->prepare("DROP TABLE IF EXISTS %s", $wpdb->prefix . $name));
             delete_option("{$name}_database_version");
         }
     }

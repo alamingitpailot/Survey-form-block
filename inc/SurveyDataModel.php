@@ -51,7 +51,6 @@ if(!class_exists('SVB_Survey_Data_Model')) {
 
             foreach ($data as $index => $item) {
                 $data[$index]['data'] = json_decode(stripslashes($item['data']), true);
-
             }
 
             return $data;

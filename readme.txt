@@ -1,6 +1,5 @@
 === Survey Form Block ===
 Contributors: alamincmt
-Donate link: https://www.buymeacoffee.com/abuhayat
 Tags: block, survey form, form, investigation, Gutenberg block
 Requires at least: 5.0+
 Tested up to: 6.5
@@ -90,6 +89,7 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 * Initial Release
 
 == External Service Integration ==
+
 * Service Name: datatable.min.js
 Docs Link: https://datatables.net/manual/installation
 
@@ -97,6 +97,7 @@ Docs Link: https://datatables.net/manual/installation
 Docs Link:https://tailwindcss.com/docs/installation
  
 == External Link ===
+
 I used this link for the data table
 https://datatables.net/tn/17
 
@@ -113,6 +114,6 @@ inc/assets/tailwind.min.js
 
 Public source code GitHub link for review, study, and contribute.
 
-https://github.com/bPlugins-LLC/Survey-Block
+https://github.com/alamingitpailot/Survey-form-block
 
 For more information on how to contribute to this plugin, please visit our GitHub repository.
