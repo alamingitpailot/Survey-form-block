@@ -2,7 +2,7 @@
 Contributors: alamincmt
 Tags: block, survey form, form, investigation, Gutenberg block
 Requires at least: 5.0+
-Tested up to: 6.5
+Tested up to: 6.5.5
 Stable tag: 1.0.0
 Requires PHP: 7.1
 License: GPLv3 or later

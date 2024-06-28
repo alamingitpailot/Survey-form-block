@@ -1,7 +1,7 @@
 
 
 import { useState, useEffect } from 'react';
-import produce from 'immer';
+import { produce } from 'immer';
 import { __ } from '@wordpress/i18n';
 import { SelectControl, Tooltip } from '@wordpress/components';
 import { withSelect } from '@wordpress/data';

@@ -2,7 +2,7 @@
 
 import { SelectControl, TextControl, TextareaControl, __experimentalNumberControl as NumberControl, CheckboxControl } from '@wordpress/components';
 import { duplicate, remove } from '../../../utils/icons';
-import produce from 'immer';
+import { produce } from 'immer';
 import { valueConvert } from '../../../utils/functions';
 
 import Width from '../FieldAttr/Size';

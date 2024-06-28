@@ -3,7 +3,7 @@ import { __ } from '@wordpress/i18n';
 import { InspectorControls } from '@wordpress/block-editor';
 import { PanelBody, TabPanel, SelectControl, __experimentalBoxControl as BoxControl, TextControl, PanelRow, TextareaControl } from '@wordpress/components';
 
-import produce from 'immer';
+import { produce } from 'immer';
 
 // Settings Components
 import { BColor, BorderControl, ColorsControl, Label, SortableControl, Typography } from '../../Components';
